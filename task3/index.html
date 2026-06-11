@@ -1,0 +1,138 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiksha Institute</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background-color:#f4f4f4;
+        }
+
+        /* Navigation Bar */
+        nav{
+            background:#1f3a5f;
+            padding:15px;
+        }
+
+        nav ul{
+            list-style:none;
+            display:flex;
+            justify-content:center;
+        }
+
+        nav ul li{
+            margin:0 20px;
+        }
+
+        nav ul li a{
+            color:white;
+            text-decoration:none;
+            font-size:18px;
+            font-weight:bold;
+        }
+
+        nav ul li a:hover{
+            color:#ffd700;
+        }
+
+        /* Home Section */
+        .container{
+            width:90%;
+            margin:auto;
+            text-align:center;
+            padding:30px;
+        }
+
+        h1{
+            color:#1f3a5f;
+            margin-bottom:15px;
+        }
+
+        p{
+            font-size:18px;
+            margin-bottom:20px;
+            line-height:1.6;
+        }
+
+        .banner{
+            width:100%;
+            max-width:1000px;
+            height:500px;
+            object-fit:cover;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.3);
+        }
+
+        .media-section{
+            margin-top:30px;
+        }
+
+        audio{
+            margin-top:15px;
+        }
+
+        footer{
+            background:#1f3a5f;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <div class="container">
+
+        <h1>Welcome to Shiksha Institute</h1>
+
+        <p>
+            Shiksha Institute is dedicated to providing quality education
+            and professional training. Our mission is to empower students
+            with modern skills in programming, web development, and emerging
+            technologies to build successful careers.
+        </p>
+
+        <!-- Institute Image -->
+        <img src="sample.jpg" alt="Shiksha Institute" class="banner">
+
+        <!-- Audio Section -->
+        <div class="media-section">
+            <h2>Institute Introduction Audio</h2>
+
+            <audio controls>
+                <source src="sample.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+    </div>
+
+    <footer>
+        © 2026 Shiksha Institute | All Rights Reserved
+    </footer>
+
+</body>
+</html>
+```

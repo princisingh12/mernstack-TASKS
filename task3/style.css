@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+nav{
+    background:#1f3a5f;
+    padding:15px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    color:white;
+    font-size:32px;
+    font-weight:bold;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    padding:8px 15px;
+}
+
+nav ul li a:hover{
+    background:white;
+    color:#1f3a5f;
+    border-radius:5px;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    padding:30px;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:15px;
+    color:#1f3a5f;
+}
+
+p{
+    text-align:center;
+    margin-bottom:25px;
+    font-size:18px;
+}
+
+.banner{
+    width:100%;
+    height:400px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.media-section{
+    text-align:center;
+    margin-top:30px;
+}
+
+video,audio{
+    margin-top:15px;
+}
+
+.course-box{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+.course-list{
+    background:white;
+    padding:25px;
+    width:40%;
+    box-shadow:0 0 10px gray;
+    border-radius:10px;
+}
+
+.course-list h2{
+    margin-bottom:15px;
+}
+
+.course-list ul,
+.course-list ol{
+    margin-left:25px;
+    line-height:35px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:30px;
+    background:white;
+}
+
+table th{
+    background:#b53b2d;
+    color:white;
+    padding:15px;
+}
+
+table td{
+    text-align:center;
+    padding:15px;
+    border:1px solid #ddd;
+}
+
+.form-container{
+    width:60%;
+    margin:auto;
+    background:white;
+    padding:30px;
+    box-shadow:0 0 10px gray;
+    border-radius:10px;
+}
+
+.form-group{
+    margin-bottom:15px;
+}
+
+label{
+    display:block;
+    margin-bottom:5px;
+    font-weight:bold;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:10px;
+}
+
+.gender{
+    display:flex;
+    gap:20px;
+    align-items:center;
+}
+
+.gender input{
+    width:auto;
+}
+
+button{
+    background:#c0392b;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    cursor:pointer;
+    font-size:18px;
+    border-radius:5px;
+}
+
+button:hover{
+    background:#922b21;
+}
